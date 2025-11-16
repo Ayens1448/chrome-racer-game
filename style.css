@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.track {
+    width: 100%;
+    height: 120px;
+    background-color: #333; /* Dark track color */
+    border: 5px solid #000;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden; 
+}
+
+.car {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    top: 10px; 
+    left: 0;
+    transition: left 0.5s ease-out; 
+}
+
+#carA {
+    background-color: red;
+    top: 10px; 
+}
+
+#carB {
+    background-color: blue;
+    top: 70px; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    min-height: 30px;
+}
